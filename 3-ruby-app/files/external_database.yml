@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  database: DataBase_DEV
+  encoding: utf8
+  pool: 15
+  timeout: 5000
+  username: yourname
+  password: yourpassword
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: DataBase_PROD
+  encoding: utf8
+  pool: 15
+  timeout: 5000
+  username: <username>
+  password: <password>
+  host: <remote ip address>

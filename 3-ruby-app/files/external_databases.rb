@@ -1,0 +1,1 @@
+EXTERNAL_DATABASE = YAML.load_file("#{Rails.root}/config/external_database.yml")[Rails.env]
